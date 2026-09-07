@@ -47,11 +47,19 @@ python train.py
 # 模型评估
 python evaluate.py
 ```
+
 ### 实验结果
 混淆矩阵：
 ![混淆矩阵](test_cm.png)
+
 Grad‑CAM热力图可视化：
-![热力图](test_gradcam.png)
+
+**样本1：预测正确**
+![预测正确样本热力图](gradcam_correct.png)
+
+**样本2：预测错误**
+![预测错误样本热力图](gradcam_wrong.png)
+
 
 
 
